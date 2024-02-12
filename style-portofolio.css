@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif,'raleway';
+      color:v#444;
+  }
+
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  nav{
+    color: #444;
+
+   
+padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_bar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    list-style-type: none;
+    
+}
+
+ul{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+
+  gap: 24px;
+
+  list-style-type: none;
+  
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #444;
+    
+}
+
+.portofolio-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #444;
+    border-style: solid;
+
+
+    margin: 2rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+  }
+
+  .portofolio-headline {
+    font-family: sans-serif, 'raleway';
+    font-weight: 200;
+    font-size: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: rem;
+  
+    justify-content: center;
+
+    align-items: center;
+
+
+    margin-top: 3rem;
+
+    border-radius: 0.2rem;
+  }
+.portofolio-cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  padding-bottom: 10rem;
+  justify-content: center;
+}
+  .portofolio-item-one {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  .portofolio-item-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  .portofolio-item-three {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+  }
+
+  button {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #444;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    border-style: solid;
+    
+  }
+
+  button:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  img .logo{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portofolio-item-img{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  min-width: 20rem;
+  max-width: 24rem;
+}
+
+footer {
+
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-direction: column;
+  }
+  
+
